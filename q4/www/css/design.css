@@ -1,0 +1,75 @@
+.logo {
+  width: 120px;
+  height: 100px;
+  float: left;
+}
+
+h1 {
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbutton {
+  display: block;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 30px 200px;
+}
+
+li a:hover, .dropdown:hover .dropbutton {
+  background-color: blue;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-list {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 517px;
+}
+
+.dropdown-list a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-list a:hover {
+  background-color: blue;
+}
+
+.dropdown:hover .dropdown-list {
+  display: block;
+}
+
+li a.current {
+  background-color: blue;
+  color: white;
+}
+
+.donut-pile {
+  width: 25%;
+  height: 25%;
+  margin: auto;
+  padding: 30px;
+  box-sizing: border-box;
+}

@@ -1,31 +1,60 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,700&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/design.css">
-    <title>Crumbz Donuts - Go Nutz!</title>
+    <title>Crumbz Donuts | Products</title>
+    <link rel="stylesheet" href="../css/design.css">
     <link rel="icon" href="img/logo.jpg">
   </head>
   <body>
-    <div class="">
-      <h1> <img class="logo" src="img/logo.jpg" alt="Logo"> Crumbz Donuts</h1>
-      <h1>Go Nutz!</h1>
+
+    <header>
+      <div class="container">
+        <div>
+          <img class="logo" src="img/logo.jpg" alt="Logo">
+          <h1 class="crumbz">Crumbz Donuts</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li class="active"><a href="index.html">Products</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="title">
+      <h1> Products </h1>
+    </section>
+
+    <section class="products">
+      <div class="product-box-chocolate">
+        <h1>Chocolate Hazelnut</h1>
+      </div>
+      <div class="product-box-strawberry">
+        <h1>Strawberry Sprinkle</h1>
+      </div>
+    </section>
+
+  <section class="buttons">
+    <div class="buy-button">
+        <a class="strawberry-button" href="strawberry/index.html">Buy Now</a>
     </div>
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a class="current" href="index.html">Products</a></li>
-      <li class="dropdown">
-        <a class="dropbutton" href="javascript:void(0)">Buy Now</a>
-          <div class="dropdown-list">
-            <a href=chocolate/index.html>Chocolate</a>
-            <a href=strawberry/index.html>Strawberry</a>
-          </div>
-      </li>
-    </ul>
-    <div class="products">
-      <img src="img/chocolate_stack.jpg">
-      <img src="img/strawberry_stack.jpg">
+    <div class="buy-button">
+        <a class="chocolate-button" href="chocolate/index.html">Buy Now</a>
     </div>
+  </section>
+
+    <footer class="product-foot">
+      <p>2019 Crumbz Donuts Inc.</p>
+      <ul>
+        <li><a href="../temporary/index.html">Contact</a></li>
+        <li><a href="../temporary/index.html">About Us</a></li>
+        <li><a href="../temporary/index.html">Locations</a></li>
+      </ul>
+    </footer>
+
   </body>
 </html>
